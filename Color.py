@@ -40,7 +40,7 @@ P_C = F_TEXT_2.render('+', TRUE, BLACK)
 
 # -------------font and text-----------------------
 # ------------sound--------------------------------
-hit_sound = pygame.mixer.Sound('sound/sfx_hit.mp3')
+hit_sound = pygame.mixer.Sound('sfx_hit.mp3')
 # ------------sound--------------------------------
 
 with open('Score.txt','r+') as file_score:
